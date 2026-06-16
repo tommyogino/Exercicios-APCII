@@ -24,7 +24,7 @@ def busca_binaria(lista, alvo):
         centro = (esquerda + direita) // 2
 
         if lista[centro] == alvo:
-            return alvo
+            return centro
         elif lista[centro] < alvo:
             esquerda = centro + 1
         else:
